@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Website Dairy Maggnesia</title>
+<meta name="description" content="Prototype redesign website Dairy Maggnesia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,400;1,500&amp;family=Libre+Franklin:wght@400;500;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<div class="dm">
+
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <a href="index.html" class="logo" aria-label="Dairy Maggnesia, ke Beranda"><img class="logo-img" src="img/logo-color.png" alt="Dairy Maggnesia"></a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="index.html" class="nav-a is-active" aria-current="page">Beranda</a>
+      <a href="tentang-kami.html" class="nav-a">Tentang Kami</a>
+      <a href="produk.html" class="nav-a">Produk</a>
+      <a href="berita-artikel.html" class="nav-a">Berita &amp; Artikel</a>
+      <a href="kontak.html" class="nav-a">Kontak Kami</a>
+    </nav>
+    <a href="kontak.html" class="btn btn-green btn-sm hdr-cta" style="color: #ffffff"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"></path></svg>Hubungi Kami</a>
+    <button type="button" class="burger" data-burger aria-label="Buka menu" aria-expanded="false" aria-controls="menu-mobile"><svg class="ic ic-lg i-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg><svg class="ic ic-lg i-close" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+  </div>
+  <nav id="menu-mobile" hidden class="mnav" aria-label="Navigasi mobile">
+      <a href="index.html" class="m-a is-active" aria-current="page">Beranda</a>
+      <a href="tentang-kami.html" class="m-a">Tentang Kami</a>
+      <a href="produk.html" class="m-a">Produk</a>
+      <a href="berita-artikel.html" class="m-a">Berita &amp; Artikel</a>
+      <a href="kontak.html" class="m-a">Kontak Kami</a>
+      <a href="kontak.html" class="btn btn-green"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"></path></svg>Hubungi Kami</a>
+    </nav>
+</header>
+
+<main>
+
+<!-- A. HERO -->
+<section class="hero" aria-labelledby="hero-title">
+  <img class="hero-img" src="img/hero-beranda.jpg" alt="Sapi perah di kandang dengan tiga karung pakan Dairy Maggnesia di lantai kandang">
+  <div class="hero-fade" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <h1 id="hero-title" class="h1">Pakan Konsentrat Sapi Perah Berbasis Riset dengan Pemanfaatan Maggot BSF</h1>
+      <p class="lead">Dairy Maggnesia adalah pakan konsentrat sapi perah yang dikembangkan melalui riset pemanfaatan maggot Black Soldier Fly (BSF) sebagai salah satu sumber bahan pakan alternatif yang berkelanjutan.</p>
+      <div class="btn-row">
+        <a href="produk.html" class="btn btn-navy" style="color: #ffffff">Kenali Produk<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+        <a href="tentang-kami.html" class="btn btn-outline">Cerita di Balik Dairy Maggnesia</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- B. MENGAPA MAGGOT BSF -->
+<section class="sec bg-sky" aria-labelledby="why-title">
+  <div class="wrap stack" style="gap: 52px">
+    <div class="sec-head center">
+      <h2 id="why-title" class="h2">Mengapa Menggunakan Maggot BSF?</h2>
+      <p class="lead">Maggot BSF adalah larva Black Soldier Fly yang dapat memanfaatkan bahan organik dan dikembangkan sebagai bahan pakan ternak.</p>
+    </div>
+    <div class="grid3">
+      <article class="card card-hover why-card">
+        <div class="why-top">
+          <span class="ic-badge"><svg class="ic ic-lg" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"></path><path d="M5 19c3-4 6-6 10-8"></path></svg></span>
+          <span class="why-num" aria-hidden="true">01</span>
+        </div>
+        <h3 class="h3">Memanfaatkan bahan organik</h3>
+        <p class="muted">Maggot BSF dapat tumbuh dengan memanfaatkan berbagai bahan organik.</p>
+      </article>
+      <article class="card card-hover why-card">
+        <div class="why-top">
+          <span class="ic-badge"><svg class="ic ic-lg" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4h8l-1.5 3c3 2 4.5 5 4.5 8a5 5 0 0 1-5 5h-4a5 5 0 0 1-5-5c0-3 1.5-6 4.5-8z"></path><path d="M9.5 7h5"></path><path d="M12 12v4M10 14h4"></path></svg></span>
+          <span class="why-num" aria-hidden="true">02</span>
+        </div>
+        <h3 class="h3">Menjadi alternatif bahan pakan</h3>
+        <p class="muted">Maggot BSF dapat diolah menjadi berbagai bahan pakan, termasuk minyak larva yang digunakan dalam penelitian pengembangan Dairy Maggnesia.</p>
+      </article>
+      <article class="card card-hover why-card">
+        <div class="why-top">
+          <span class="ic-badge"><svg class="ic ic-lg" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 0 1-14.3 4.9"></path><path d="M4 12a8 8 0 0 1 14.3-4.9"></path><path d="M18.5 3.5v4h-4"></path><path d="M5.5 20.5v-4h4"></path></svg></span>
+          <span class="why-num" aria-hidden="true">03</span>
+        </div>
+        <h3 class="h3">Mendukung pemanfaatan sumber daya yang lebih sirkular</h3>
+        <p class="muted">Bahan organik dapat dimanfaatkan kembali menjadi sumber daya yang bernilai dan berkelanjutan untuk peternakan.</p>
+      </article>
+    </div>
+    <div style="display: flex; justify-content: center">
+      <a href="artikel-maggot-bsf.html" class="btn btn-navy" style="color: #ffffff">Pelajari Lebih Lanjut tentang Maggot BSF<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- C. PRODUK KAMI -->
+<section class="sec" aria-labelledby="prod-title">
+  <div class="wrap prod">
+    <div class="prod-visual">
+      <div class="photo"><img src="img/produk-kemasan-kandang.jpg" alt="Karung Dairy Maggnesia Sapi Perah Laktasi di lantai kandang sapi perah"></div>
+      <div class="float-badge">
+        <span class="ic-badge"><svg class="ic ic-lg" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8l8-4 8 4v8l-8 4-8-4z"></path><path d="M4 8l8 4 8-4M12 12v8"></path></svg></span>
+        <span class="stack" style="gap: 0"><span class="spec-k">Kemasan</span><span class="spec-v">50 kg</span></span>
+      </div>
+    </div>
+    <div class="stack" style="gap: 22px">
+      <p class="eyebrow">Produk Kami</p>
+      <h2 id="prod-title" class="h2">Dairy Maggnesia</h2>
+      <p class="kicker" style="color: #3F5C34">Pakan Konsentrat Sapi Perah Berbahan Dasar Minyak Maggot BSF</p>
+      <p class="lead">Pakan konsentrat yang diformulasikan untuk melengkapi kebutuhan nutrisi sapi perah melalui pemberian bersama hijauan sebagai bagian dari ransum harian.</p>
+      <div class="spec-row">
+        <div class="spec">
+          <span class="ic-badge blue" style="width: 46px; height: 46px; border-radius: 14px"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s-6 6.5-6 11a6 6 0 0 0 12 0c0-4.5-6-11-6-11z"></path></svg></span>
+          <span class="stack" style="gap: 0"><span class="spec-k">Kategori</span><span class="spec-v">Konsentrat sapi perah</span></span>
+        </div>
+        <div class="spec">
+          <span class="ic-badge blue" style="width: 46px; height: 46px; border-radius: 14px"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8l8-4 8 4v8l-8 4-8-4z"></path><path d="M4 8l8 4 8-4M12 12v8"></path></svg></span>
+          <span class="stack" style="gap: 0"><span class="spec-k">Kemasan</span><span class="spec-v">50 kg</span></span>
+        </div>
+      </div>
+      <div class="btn-row" style="margin-top: 6px">
+        <a href="produk.html" class="btn btn-navy" style="color: #ffffff">Lihat Detail Produk<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- D. RISET / PERJALANAN (hijau) -->
+<section class="sec bg-green on-dark riset" aria-labelledby="riset-title">
+  <img class="riset-bg" src="img/tim-bersama-bg.jpg" alt="" aria-hidden="true">
+  <div class="riset-shade" aria-hidden="true"></div>
+  <div class="wrap stack" style="gap: 52px">
+    <div class="sec-head center">
+      <p class="eyebrow">Perjalanan Kami</p>
+      <h2 id="riset-title" class="h2">Riset yang Berkembang Bersama Kebutuhan Peternakan</h2>
+      <p class="lead">Pengembangan Maggnesia berawal dari pemanfaatan maggot BSF dalam pakan unggas. Pengalaman tersebut kemudian dikembangkan untuk ternak ruminansia hingga lahir Dairy Maggnesia untuk sapi perah.</p>
+    </div>
+    <div class="tl" data-tl role="group" aria-label="Ringkasan perjalanan Dairy Maggnesia">
+      <div class="tl-track" aria-hidden="true"><div class="tl-fill" style="width: 100%"></div></div>
+      <div class="tl-item">
+        <button type="button" class="tl-step" aria-pressed="false">
+          <span class="tl-dot"><svg class="ic ic-xl" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"></path><path d="M7.5 15h9"></path></svg></span>
+          <span class="stack" style="gap: 6px">
+            <span class="tl-year">2016–2020</span>
+            <span class="tl-title">Membangun Dasar Riset Maggnesia</span>
+          </span>
+        </button>
+      </div>
+      <div class="tl-item">
+        <button type="button" class="tl-step" aria-pressed="false">
+          <span class="tl-dot"><svg class="ic ic-xl" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c-3.5 0-6 5.5-6 10a6 6 0 0 0 12 0c0-4.5-2.5-10-6-10z"></path></svg></span>
+          <span class="stack" style="gap: 6px">
+            <span class="tl-year">2020–2024</span>
+            <span class="tl-title">Maggnesia untuk Unggas</span>
+          </span>
+        </button>
+      </div>
+      <div class="tl-item">
+        <button type="button" class="tl-step" aria-pressed="false">
+          <span class="tl-dot"><svg class="ic ic-xl" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s-6 6.5-6 11a6 6 0 0 0 12 0c0-4.5-6-11-6-11z"></path><path d="M9.5 15a2.5 2.5 0 0 0 2.5 2.5"></path></svg></span>
+          <span class="stack" style="gap: 6px">
+            <span class="tl-year">2025</span>
+            <span class="tl-title">Dairy Maggnesia Mulai Dikembangkan</span>
+          </span>
+        </button>
+      </div>
+      <div class="tl-item">
+        <button type="button" class="tl-step is-on" aria-pressed="true">
+          <span class="tl-dot"><svg class="ic ic-xl" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.2"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><circle cx="17" cy="9" r="2.6"></circle><path d="M15.5 14.2c3 .3 5.5 2.6 5.5 5.8"></path></svg></span>
+          <span class="stack" style="gap: 6px">
+            <span class="tl-year">2026</span>
+            <span class="tl-title">Pengujian Bersama Peternak</span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center">
+      <a href="tentang-kami.html" class="btn btn-white" style="color: #3f5c34">Ikuti Perjalanan Kami<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- E. TESTIMONI -->
+<section class="sec" aria-labelledby="testi-title">
+  <div class="wrap stack" style="gap: 44px">
+    <div class="sec-head">
+      <p class="eyebrow">Testimoni</p>
+      <h2 id="testi-title" class="h2">Apa Kata Mereka?</h2>
+    </div>
+    <div class="grid2">
+      <figure class="card quote-card" style="background: #F7FAF4; border-color: #DDEBD2">
+        <span class="qmark" aria-hidden="true">“</span>
+        <blockquote class="quote">Tidak menyangka waktu kemarin diuji kualitas susunya, ternyata jadi bagus. Terima kasih telah memberikan kesempatan kepada kami untuk menjadi mitra dalam penggunaan Dairy Maggnesia.</blockquote>
+        <figcaption class="person">
+          <span class="avatar"><img src="img/testi-eky.jpg" alt="Foto Eky Sulistryo"></span>
+          <span class="stack" style="gap: 2px"><span class="p-name">Eky Sulistryo</span><span class="p-role">Peternak Mitra dari Jerami Farm, Bogor</span></span>
+        </figcaption>
+      </figure>
+      <figure class="card quote-card" style="background: #F5F9FD">
+        <span class="qmark blue" aria-hidden="true">“</span>
+        <blockquote class="quote">Teknologi ini memiliki potensi yang diperlukan di peternak rakyat. Penting untuk mendiskusikan temuan ini dengan peternak dan memastikan kontinuitas produk.</blockquote>
+        <figcaption class="person">
+          <span class="avatar"><img src="img/testi-faisal.jpg" alt="Foto Faisal Rahman"></span>
+          <span class="stack" style="gap: 2px"><span class="p-name">Faisal Rahman</span><span class="p-role">PT Spesialis Susu Indonesia</span></span>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- F. BERITA & ARTIKEL -->
+<section class="sec bg-sky" aria-labelledby="art-title">
+  <div class="wrap stack" style="gap: 48px">
+    <div class="sec-head center">
+      <h2 id="art-title" class="h2">Berita &amp; Artikel</h2>
+      <p class="kicker">Cerita dan Wawasan dari Dairy Maggnesia</p>
+    </div>
+    <div class="art-grid">
+      <article class="card card-hover art">
+        <div class="art-thumb"><img src="img/maggot-bsf.jpg" alt="Dua tangan menggenggam maggot BSF (larva Black Soldier Fly) di atas wadah berisi maggot" style="object-position: 55% 45%"></div>
+        <div class="art-body">
+          <h3 class="art-title"><a href="artikel-maggot-bsf.html">Apa Itu Maggot BSF dan Mengapa Digunakan dalam Dairy Maggnesia?</a></h3>
+          <p class="art-sum">Maggot BSF adalah larva Black Soldier Fly yang berpotensi digunakan sebagai bahan pakan ternak. Kenali karakteristik, kandungan nutrisi, dan alasan penggunaannya dalam Dairy Maggnesia.</p>
+          <div class="art-cta"><a href="artikel-maggot-bsf.html" class="link-arrow" aria-label="Baca selengkapnya: Apa Itu Maggot BSF">Baca Selengkapnya<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div>
+        </div>
+      </article>
+      <article class="card card-hover art">
+        <div class="art-thumb"><img src="img/ildex-stand-thumb.jpg" alt="Display produk Dairy Maggnesia di area pameran ILDEX Indonesia 2026" style="object-position: 30% 50%"></div>
+        <div class="art-body">
+          <h3 class="art-title"><a href="artikel-ildex-2026.html">Dairy Maggnesia Perkenalkan Inovasi Pakan Sapi Perah di ILDEX Indonesia 2026</a></h3>
+          <p class="art-sum">Dairy Maggnesia hadir di ILDEX Indonesia 2026 untuk memperkenalkan inovasi pakan konsentrat sapi perah berbasis pemanfaatan maggot BSF. Kehadiran maggot justru menjadi salah satu hal yang paling memantik rasa penasaran pengunjung.</p>
+          <div class="art-cta"><a href="artikel-ildex-2026.html" class="link-arrow" aria-label="Baca selengkapnya: Dairy Maggnesia di ILDEX Indonesia 2026">Baca Selengkapnya<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div>
+        </div>
+      </article>
+      <article class="card card-hover art">
+        <div class="art-thumb"><img src="img/sapi-kandang-thumb.jpg" alt="Sapi perah di kandang menghadap palung pakan"></div>
+        <div class="art-body">
+          <h3 class="art-title"><a href="artikel-pakan-baru.html">Mau Mencoba Pakan Baru? Perhatikan 6 Hal Ini</a></h3>
+          <p class="art-sum">Pelajari 6 hal yang perlu diperhatikan sebelum mencoba pakan baru untuk sapi perah, mulai dari kebutuhan ternak, transisi pakan, respons sapi, hingga efisiensi biaya.</p>
+          <div class="art-cta"><a href="artikel-pakan-baru.html" class="link-arrow" aria-label="Baca selengkapnya: Mau Mencoba Pakan Baru?">Baca Selengkapnya<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div>
+        </div>
+      </article>
+    </div>
+    <div style="display: flex; justify-content: center">
+      <a href="berita-artikel.html" class="btn btn-outline">Lihat Semua Artikel<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- G. MITRA KAMI -->
+<section class="sec" aria-labelledby="mitra-title">
+  <div class="wrap stack" style="gap: 44px">
+    <div class="sec-head center">
+      <h2 id="mitra-title" class="h2">Mitra Kami</h2>
+      <span class="bar" aria-hidden="true"></span>
+      <p class="lead">Ketika Riset Bertemu dengan Kebutuhan Industri</p>
+    </div>
+    <div class="partners">
+      <div class="card partner">
+        <span class="bar" aria-hidden="true"></span>
+        <h3 class="partner-name">Sekolah Vokasi IPB University</h3>
+        <p class="partner-role">Riset dan pengembangan</p>
+      </div>
+      <div class="card partner">
+        <span class="bar" aria-hidden="true"></span>
+        <h3 class="partner-name">PT Spesialis Susu Indonesia</h3>
+        <p class="partner-role">Mitra industri</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- H. BISATERNAK -->
+<section class="sec bg-sky" aria-labelledby="bt-title" style="background: linear-gradient(180deg, #EAF3FB 0%, #F5F9FD 100%)">
+  <div class="wrap bt">
+    <div class="photo"><img src="img/bisaternak-app.jpg" alt="Tangan memegang ponsel yang menampilkan aplikasi BisaTernak"></div>
+    <div class="bt-copy">
+      <p class="eyebrow">Dukungan Digital Peternakan</p>
+      <h2 id="bt-title" class="bt-name">BisaTernak</h2>
+      <p class="lead">BisaTernak adalah aplikasi digital untuk membantu peternak mencatat dan memantau aktivitas peternakan, mulai dari data ternak, produksi susu, pakan, kesehatan hingga keuangan.</p>
+      <p class="lead">Dalam pengembangan Dairy Maggnesia, BisaTernak direncanakan menjadi salah satu kanal digital yang menghubungkan informasi produk dengan kebutuhan pengguna.</p>
+      <div></div>
+      <div class="btn-row">
+        <a href="https://bisaternak.id/" target="_blank" rel="noopener" class="btn btn-navy" style="color: #ffffff">Kenali BisaTernak<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"></path></svg><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">(membuka tab baru)</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- I. CTA PENUTUP (hijau) -->
+<section class="sec bg-green on-dark cta" aria-labelledby="cta-title" style="background-color: transparent">
+  <div class="wrap">
+    <div class="cta-in">
+      <h2 id="cta-title" class="h2" style="color: #0d3b6e; width: 927px">Ingin Mengenal Dairy Maggnesia Lebih Dekat?</h2>
+      <p class="lead" style="color: #0d3b6e; width: 652px; font-size: 17px">Punya pertanyaan tentang produk atau tertarik membahas kerja sama? <br>Hubungi tim Dairy Maggnesia untuk informasi lebih lanjut.</p>
+      <a href="kontak.html" class="btn btn-white" style="margin-top: 8px; background-color: #4f7041; color: #ffffff"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"></path></svg>Hubungi Kami</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- J. FOOTER -->
+<footer class="ftr on-dark">
+  <div class="wrap">
+    <div class="ftr-grid">
+      <div class="ftr-brand">
+        <a href="index.html" class="logo" aria-label="Dairy Maggnesia, ke Beranda" style="display: inline-flex"><img class="ftr-logo" src="img/logo-white.png" alt="Dairy Maggnesia"></a>
+        <p class="ftr-desc">Pakan konsentrat sapi perah berbasis riset dengan pemanfaatan maggot BSF.</p>
+      </div>
+      <div>
+        <p class="ftr-h">Navigasi</p>
+        <nav class="ftr-nav" aria-label="Navigasi footer">
+          <a href="index.html">Beranda</a>
+          <a href="tentang-kami.html">Tentang Kami</a>
+          <a href="produk.html">Produk</a>
+          <a href="berita-artikel.html">Berita &amp; Artikel</a>
+          <a href="kontak.html">Kontak Kami</a>
+        </nav>
+      </div>
+      <div>
+        <p class="ftr-h">Kontak</p>
+        <div class="ftr-contact">
+          <div class="ftr-item"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg><div><p class="ftr-k">Lokasi</p><span class="tbc">[Alamat resmi]</span></div></div>
+          <div class="ftr-item"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg><div><p class="ftr-k">Email</p><a href="mailto:info@maggnesia.id">info@maggnesia.id</a></div></div>
+          <div class="ftr-item"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"></path></svg><div><p class="ftr-k">WhatsApp</p><span class="tbc">[Nomor WhatsApp resmi]</span></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="ftr-bot"><span>© 2026 Dairy Maggnesia. Seluruh hak cipta dilindungi.</span>
+      <span>Beranda · Tentang Kami · Produk · Berita &amp; Artikel · Kontak Kami</span>
+    </div>
+  </div>
+</footer>
+
+</div>
+<script src="site.js"></script>
+</body>
+</html>

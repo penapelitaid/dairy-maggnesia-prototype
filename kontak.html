@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kontak Kami · Dairy Maggnesia</title>
+<meta name="description" content="Prototype redesign website Dairy Maggnesia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,400;1,500&amp;family=Libre+Franklin:wght@400;500;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<div class="dm">
+
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <a href="index.html" class="logo" aria-label="Dairy Maggnesia, ke Beranda"><img class="logo-img" src="img/logo-color.png" alt="Dairy Maggnesia"></a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="index.html" class="nav-a">Beranda</a>
+      <a href="tentang-kami.html" class="nav-a">Tentang Kami</a>
+      <a href="produk.html" class="nav-a">Produk</a>
+      <a href="berita-artikel.html" class="nav-a">Berita &amp; Artikel</a>
+      <a href="kontak.html" class="nav-a is-active" aria-current="page">Kontak Kami</a>
+    </nav>
+    <a href="#kirim-pesan" class="btn btn-green btn-sm hdr-cta" style="color: #ffffff"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"></path></svg>Hubungi Kami</a>
+    <button type="button" class="burger" data-burger aria-label="Buka menu" aria-expanded="false" aria-controls="menu-mobile"><svg class="ic ic-lg i-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg><svg class="ic ic-lg i-close" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+  </div>
+  <nav id="menu-mobile" hidden class="mnav" aria-label="Navigasi mobile">
+      <a href="index.html" class="m-a">Beranda</a>
+      <a href="tentang-kami.html" class="m-a">Tentang Kami</a>
+      <a href="produk.html" class="m-a">Produk</a>
+      <a href="berita-artikel.html" class="m-a">Berita &amp; Artikel</a>
+      <a href="kontak.html" class="m-a is-active" aria-current="page">Kontak Kami</a>
+      <a href="#kirim-pesan" class="btn btn-green"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"></path></svg>Hubungi Kami</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="k-hero on-dark" aria-labelledby="kontak-title">
+  <img class="k-hero-img" src="img/kontak-kandang-produk.jpg" alt="Lorong kandang sapi perah dengan karung pakan Dairy Maggnesia dan produk Maggnesia lainnya">
+  <div class="k-shade" aria-hidden="true"></div>
+  <div class="wrap" style="position: relative; width: 100%">
+    <div class="k-copy">
+      <nav class="crumb" aria-label="Breadcrumb"><a href="index.html">Beranda</a><span aria-hidden="true">/</span><span aria-current="page">Kontak Kami</span></nav>
+      <p class="eyebrow" style="color: #C9DDB8">Kontak Kami</p>
+      <h1 id="kontak-title" class="h1" style="color: #ffffff">Informasi Produk &amp; Kerja Sama</h1>
+      <p class="lead" style="color: #E3ECF6">Ingin mengetahui lebih lanjut tentang Dairy Maggnesia, ketersediaan produk, atau peluang kerja sama? Gunakan kontak berikut untuk memperoleh informasi yang dibutuhkan.</p>
+    </div>
+  </div>
+</section>
+
+<section class="k-body" aria-label="Kontak dan formulir">
+  <div class="wrap k-grid">
+
+    <aside class="card k-info" aria-labelledby="info-title">
+      <h2 id="info-title" class="h3">Kontak Resmi</h2>
+      <div class="k-item">
+        <span class="ic-badge"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"></path></svg></span>
+        <div><p class="spec-k">WhatsApp</p><p class="k-val"><span class="tbc">[Nomor resmi]</span></p></div>
+      </div>
+      <div class="k-item">
+        <span class="ic-badge blue"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg></span>
+        <div><p class="spec-k">Email</p><p class="k-val"><a href="mailto:info@maggnesia.id">info@maggnesia.id</a></p></div>
+      </div>
+      <div class="k-item">
+        <span class="ic-badge"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg></span>
+        <div><p class="spec-k">Alamat</p><p class="k-val"><span class="tbc">[Alamat resmi]</span></p></div>
+      </div>
+    </aside>
+
+    <div class="card k-form" id="kirim-pesan">
+      <form class="stack" style="gap: 24px" id="kontak-form" novalidate aria-labelledby="form-title">
+<div class="stack" style="gap: 6px"><h2 id="form-title" class="h2" style="font-size: 30px">Kirim Pesan</h2><p class="hint">Kolom bertanda <span class="req">*</span> wajib diisi.</p></div>
+<div class="alert" id="f-alert" role="alert" hidden><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v6M12 16.5v.5"></path></svg><span id="f-alert-t"></span></div>
+<div class="form-grid">
+<div class="field"><label class="label" for="f-nama">Nama <span class="req" aria-hidden="true">*</span></label><input id="f-nama" name="name" class="input" type="text" autocomplete="name" placeholder="Nama lengkap" aria-required="true" aria-describedby="e-name"><p id="e-name" class="err" hidden></p></div>
+<div class="field"><label class="label" for="f-kontak">Nomor WhatsApp / Email <span class="req" aria-hidden="true">*</span></label><input id="f-kontak" name="contact" class="input" type="text" autocomplete="email" placeholder="0812xxxxxxxx atau nama@email.com" aria-required="true" aria-describedby="e-contact"><p id="e-contact" class="err" hidden></p></div>
+<fieldset class="field span2" style="border: 0; padding: 0; margin: 0; min-width: 0" aria-describedby="e-purpose"><legend class="label" style="padding: 0; margin-bottom: 8px">Keperluan <span class="req" aria-hidden="true">*</span></legend><div class="radios">
+<label class="radio"><input type="radio" id="f-k1" name="purpose" value="Informasi Produk"><span>Informasi Produk</span></label>
+<label class="radio"><input type="radio" id="f-k2" name="purpose" value="Kerja Sama"><span>Kerja Sama</span></label>
+<label class="radio"><input type="radio" id="f-k3" name="purpose" value="Pertanyaan Lainnya"><span>Pertanyaan Lainnya</span></label>
+</div><p id="e-purpose" class="err" style="margin-top: 8px" hidden></p></fieldset>
+<div class="field span2"><label class="label" for="f-pesan">Pesan <span class="req" aria-hidden="true">*</span></label><textarea id="f-pesan" name="msg" class="input" placeholder="Tuliskan pertanyaan atau kebutuhan Anda" aria-required="true" aria-describedby="e-msg"></textarea><p id="e-msg" class="err" hidden></p></div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 14px; align-items: center"><button type="submit" class="btn btn-green"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l16-8-6 16-2-6z"></path><path d="M12 14l8-10"></path></svg>Kirim Pesan</button></div>
+<div class="sim" id="f-sim" role="status" hidden><p class="sim-h"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 8v.5M12 11v5"></path></svg>Simulasi prototype — pesan belum dikirim</p><p class="muted" style="font-size: 15px">Data formulir sudah valid. Pada website final, tombol Kirim Pesan akan membuka WhatsApp resmi Dairy Maggnesia (nomor masih TBC) dengan isi pesan seperti berikut:</p><p class="sim-msg" id="f-preview"></p><div class="btn-row"><button type="button" class="btn btn-outline btn-sm" id="f-edit">Ubah Pesan</button><button type="button" class="btn btn-outline btn-sm" id="f-reset">Kosongkan Formulir</button></div></div>
+</form>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="ftr on-dark">
+  <div class="wrap">
+    <div class="ftr-grid">
+      <div class="ftr-brand">
+        <a href="index.html" class="logo" aria-label="Dairy Maggnesia, ke Beranda" style="display: inline-flex"><img class="ftr-logo" src="img/logo-white.png" alt="Dairy Maggnesia"></a>
+        <p class="ftr-desc">Pakan konsentrat sapi perah berbasis riset dengan pemanfaatan maggot BSF.</p>
+      </div>
+      <div>
+        <p class="ftr-h">Navigasi</p>
+        <nav class="ftr-nav" aria-label="Navigasi footer">
+          <a href="index.html">Beranda</a>
+          <a href="tentang-kami.html">Tentang Kami</a>
+          <a href="produk.html">Produk</a>
+          <a href="berita-artikel.html">Berita &amp; Artikel</a>
+          <a href="kontak.html">Kontak Kami</a>
+        </nav>
+      </div>
+      <div>
+        <p class="ftr-h">Kontak</p>
+        <div class="ftr-contact">
+          <div class="ftr-item"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg><div><p class="ftr-k">Lokasi</p><span class="tbc">[Alamat resmi]</span></div></div>
+          <div class="ftr-item"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg><div><p class="ftr-k">Email</p><a href="mailto:info@maggnesia.id">info@maggnesia.id</a></div></div>
+          <div class="ftr-item"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"></path></svg><div><p class="ftr-k">WhatsApp</p><span class="tbc">[Nomor WhatsApp resmi]</span></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="ftr-bot">
+      <span>© 2026 Dairy Maggnesia. Seluruh hak cipta dilindungi.</span>
+      <span>Beranda · Tentang Kami · Produk · Berita &amp; Artikel · Kontak Kami</span>
+    </div>
+  </div>
+</footer>
+
+</div>
+<script src="site.js"></script>
+</body>
+</html>
